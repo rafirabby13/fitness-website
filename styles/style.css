@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared styles */
+
+:root {
+  --bg: rgb(0, 0, 0);
+  --title: white;
+  --description: rgba(255, 255, 255, 0.5);
+  --orange: rgb(230, 83, 60);
+  --hero-description: rgba(255, 255, 255, 0.5);
+  --bg-light:rgb(34, 34, 34);
+}
+.body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  color: white;
+}
+.section-container {
+  max-width: 69.1%;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: var(--title);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.section-description {
+  color: var(--description);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.btn {
+  border-radius: 42px;
+  padding: 16px 40px;
+  color: var(--title);
+  font-size: 1.125rem;
+  font-weight: 600;
+  background-color: var(--orange);
+}
+.display-flex {
+  display: flex;
+}
+
+/* header section */
+.header-bg {
+  background: linear-gradient(
+    to top,
+    var(--bg),
+    rgba(255, 255, 255, 0.132),
+    var(--bg)
+  );
+}
+/* navbar section */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 57px 0px 32px 0px;
+}
+.logo {
+  color: var(--orange);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.ul-container {
+  align-items: center;
+  gap: 3rem;
+}
+.list-item {
+  list-style-type: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.list-item a {
+  color: var(--title);
+
+  text-decoration: none;
+}
+.home {
+  padding: 8px 20px;
+}
+.nav-icon {
+  display: none;
+}
+
+/* hero banner  */
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  gap: 167px;
+}
+.hero-title {
+  font-size: 4.875rem;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.hero-description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: var(--hero-description);
+  margin-bottom: 28px;
+}
+.hero-banner {
+  background-image: url("../images/Images\ 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  /* border: 2px solid white; */
+  position: relative;
+}
+.services {
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 23px;
+  color: var(--text-white);
+}
+
+.number {
+  color: rgb(250, 250, 249);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 4.3px;
+}
+.text {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.video-tutorial {
+  position: absolute;
+  bottom: 73px;
+  left: -90px;
+  align-items: center;
+}
+.circle {
+  background-color: var(--orange);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.free-workout {
+  position: absolute;
+  top: 140px;
+  right: -66px;
+}
+.workout-number {
+  font-size: 2.5rem;
+}
+
+/* habit section */
+
+.habit-content {
+  text-align: center;
+  width: 64%;
+  margin: 0 auto;
+}
+
+.habit-card-container {
+  margin-top: 58px;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 30px 0px 6px 0px;
+}
+.habit-image {
+  border-radius: 50%;
+  border: 1px solid var(--bg);
+}
+
+
+/* run extra mile section */
+
+.run-extra-mile {
+    background-color: var(--bg-light);
+    border-radius: 18px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 165px;
+    padding: 40px 32px 40px 54px;
+  }
+  .run-content {
+    width: 41.8%;
+  }
+  .run-title {
+    margin-top: 0px;
+  }
+  
+  .run-description {
+    margin-bottom: 34px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .run-image-div {
+    background-image: url("../images/run.jpg");
+    background-position:  right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    width: 34.5%;
+    height: 312px;
+  }
+   
+   

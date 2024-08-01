@@ -1,0 +1,59 @@
+@media screen and (max-width: 576px) {
+  .section-container {
+    max-width: calc(100% - 40px);
+    border: 2px solid white;
+  }
+  .header-bg {
+    margin-bottom: 0px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-icon {
+    display: inline-block;
+  }
+
+  .hero{
+    flex-direction: column;
+    height: auto;
+    gap: 48px;
+
+  }
+  .hero-banner{
+    /* height: auto; */
+    height: 800px;
+  }
+  .video-tutorial {
+    position: absolute;
+    bottom: 323px;
+    left: 0px;
+    align-items: center;
+  }
+  .free-workout {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+  }
+  .habit-content,
+  .run-content,
+  .run-btn,
+  .run-image-div ,
+  .run-extra-mile {
+    width: 100%;
+  }
+  .habit-card-container,
+  .run-extra-mile {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .habit-card {
+    width: 50%;
+  }
+  .run-extra-mile{
+    margin-top: 66px;
+    padding: 31px 33px 35px;
+  }
+  .run-image-div{
+    height: 170px;
+  }
+}
